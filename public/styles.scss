@@ -1,4 +1,11 @@
 @forward '../src/sass/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Ubuntu&display=swap');
+
+:root {
+  --titles-colors: #EDFE72;
+  --main-font: 'Roboto', sans-serif;
+  --secundary-font: 'Ubuntu', sans-serif;
+}
 
 html {
   box-sizing: border-box;
