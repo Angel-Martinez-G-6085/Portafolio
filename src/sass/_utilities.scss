@@ -1,3 +1,23 @@
+// Inicio clases utilitarias 
 .center {
     text-align: center;
 }
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation: fadeInUp 3s ease;
+  }
+// Fin clases utilitarias 
+
+// Inicio de las animaciones
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  // Fin de las animaciones
